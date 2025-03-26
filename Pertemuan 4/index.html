@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <header>
+         <h2>Kursus</h2>
+     </header>
+     <main>
+         <form action="submit" name="registrasi" method="post">
+             <label for="nama lengkap">Nama Lengkap</label>
+             <input type="text" name="nama lengkap" id="nama lengkap"><br>
+             <label for="tanggal lahir">Tanggal Lahir</label>
+             <input type="date" id="start" name="tgllahir" value="2024-01-01" min="2024-01-01" max="2024-12-31">
+             <label for="jenis kelamin">Jenis Kelamin</label>
+             <select name="jenis kelamin" id="jenis kelamin">
+                 <option value="L">Laki-Laki</option>
+                 <option value="P">Perempuan</option>
+             </select><br>
+             <label for="asal sekolah">Asal Sekolah</label>
+             <input type="text" name="asal sekolah" id="Asal Sekolah">
+              <label for="kelas">Kelas</label>
+              <select name="kelas" id="kelas">
+                 <option value="1">Kelas A</option>
+                 <option value="2">Kelas B</option>
+                 <option value="3">Kelas C</option>
+                 <option value="4">Kelas D</option>
+                 <option value="5">Kelas E</option>
+             </select><br>
+             <label for="alamat">Alamat</label>
+             <input type="text" name="alamat" id="Alamat"><br>
+             <label for="telpon">No. Telpon</label>
+             <input type="text" name="telpon" id="telpon"><br>
+             <label for="nama orang tua">Nama Orang Tua</label>
+             <input type="text" name="nama orang tua" id="nama orang tua"><br>
+             <label for="pekerjaan orang tua">Pekerjaan Orang Tua</label>
+             <select name="pekerjaan orang tua" id="pekerjaan orang tua">
+                 <option value="pns">Pns</option>
+                 <option value="polisi">Polisi</option>
+                 <option value="guru">guru</option>
+                 <option value="dokter">Dokter</option>
+                 <option value="karyawan swasta">Karyawan Swasta</option>
+             </select><br>
+             <label for="program kursus">Program Kursus</label>
+             <input type="text" name="program kursus" id="program kursus"><br>
+             <label for="hari kursus">Hari Kursus</label>
+             <input type="checkbox">Senin & Kamis
+             <input type="checkbox">Selasa & Jumat
+             <input type="checkbox">Rabu & Sabtu
+             <br>
+             <label for="Waktu kursus">Waktu Kursus</label>
+             <input type="checkbox">14.00 - 15.30
+             <input type="checkbox">16.00 - 17.30
+             <input type="checkbox">19.00 - 20.30
+             <br>
+             <input type="button" value="submit">
+         </form>
+     </main>
+     <footer>
+     </footer>
+ </body>
+ </html>
