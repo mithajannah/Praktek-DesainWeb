@@ -1,0 +1,59 @@
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+    nav {
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                display: inline;
+                margin: 0 15px;
+
+                a {
+                    color: red;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+.about {
+    background-color: purple;
+    padding: 20px;
+    text-align: center;
+
+    h2 {
+        color:brown;
+    }
+}
+.services {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+
+    h2 {
+        color: brown;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            margin: 10px 0;
+        }
+    }
+}
+.contact {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+
+    h2 {
+        color: brown;
+    }
+}
