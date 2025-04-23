@@ -1,0 +1,50 @@
+.tombol {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block; /* Membuat tombol tidak mengganggu kotak */
+    margin: 20px; /* Jarak dari elemen lain */
+  }
+  
+  .tombol:hover {
+    background-color: #e74c3c;
+    transform: scale(1.1);
+  }
+  
+  /* Styling untuk kotak */
+  .kotak {
+    width: 100px;
+    height: 100px;
+    background-color: #2ecc71;
+    animation: gerak 2s infinite;
+    margin: 20px; /* Jarak dari elemen lain */
+  }
+  
+  /* Definisi animasi */
+  @keyframes gerak {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(200px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+  }
+  
+  div:hover {
+    width: 300px;
+    height: 300px;
+  }
